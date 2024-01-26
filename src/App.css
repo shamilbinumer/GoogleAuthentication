@@ -1,0 +1,18 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.caard{
+  border: 1px solid rgb(74, 74, 74);
+  padding: 30px;
+  border-radius: 4px;
+}
+input{
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+}
+button{
+  width: 100%;
+  margin-bottom: 25px;
+}
