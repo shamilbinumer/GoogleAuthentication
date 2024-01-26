@@ -7,10 +7,10 @@ import { useState } from 'react';
 function App() {
  const [user,setUser]=useState({})
 
- const logout=()=>{
-    setUser({})
-    document.getElementById('login').hidden=false
- }
+//  const logout=()=>{
+//     setUser({})
+//     document.getElementById('login').hidden=false
+//  }
 
   return (
     <>
@@ -40,7 +40,6 @@ function App() {
             <img src={user.picture} alt="" />
             <h2> {user.name}</h2>
             <p>{user.email}</p>
-            {/* <button onClick={logout}>Logout</button> */}
             </div>}
     </>
   )
